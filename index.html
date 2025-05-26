@@ -1,54 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>MD Saiful Hossain | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="my_porfolio">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>my_porfolio</title>
+  <link rel="manifest" href="manifest.json">
 </head>
 <body>
-  <header>
-    <h1>MD Saiful Hossain</h1>
-    <p>Software Engineer | Flutter Developer</p>
-    <nav>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
-
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I’m a software engineer with 2+ years of experience in Flutter, passionate about building apps that make a difference.
-    </p>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Appza E-commerce App</h3>
-      <p>An e-commerce app with dynamic product management and WooCommerce integration.</p>
-      <a href="https://github.com/eamon831/appza">GitHub Repo</a>
-    </div>
-
-    <div class="project">
-      <h3>iOS Build Automation Script</h3>
-      <p>Shell and Python scripts for automating iOS builds using API key authentication.</p>
-      <a href="https://github.com/eamon831/ios-build-script">GitHub Repo</a>
-    </div>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: saiful.hossain@example.com</p>
-    <p>GitHub: <a href="https://github.com/eamon831">github.com/eamon831</a></p>
-    <p>Phone: +8801758208538</p>
-  </section>
-
-  <footer>
-    <p>© 2025 MD Saiful Hossain</p>
-  </footer>
-
-  <script src="script.js"></script>
+  <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
