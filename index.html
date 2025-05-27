@@ -18,21 +18,97 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  <meta name="description" content="MD Saiful Hossain - Flutter Developer Portfolio. Experienced mobile app developer specializing in Flutter, Dart, and cross-platform development. View my projects, professional journey, and get in touch.">
+  <meta name="keywords" content="Flutter Developer, Mobile App Developer, Dart, Cross-platform Development, MD Saiful Hossain, Portfolio, Software Engineer">
+  <meta name="author" content="MD Saiful Hossain">
 
-  <!-- iOS meta tags & icons -->
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="my_porfolio">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <!-- SEO Meta Tags -->
+  <title>MD Saiful Hossain - Flutter Developer Portfolio</title>
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  <meta name="revisit-after" content="7 days">
+
+  <!-- Open Graph Meta Tags for Social Media -->
+  <meta property="og:title" content="MD Saiful Hossain - Flutter Developer Portfolio">
+  <meta property="og:description" content="Experienced Flutter developer with 3+ years of expertise in mobile app development. Explore my projects, professional journey, and technical skills.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://your-domain.com">
+  <meta property="og:image" content="https://your-domain.com/icons/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="MD Saiful Hossain Portfolio">
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MD Saiful Hossain - Flutter Developer Portfolio">
+  <meta name="twitter:description" content="Experienced Flutter developer with 3+ years of expertise in mobile app development. Explore my projects, professional journey, and technical skills.">
+  <meta name="twitter:image" content="https://your-domain.com/icons/twitter-image.png">
+  <meta name="twitter:creator" content="@your_twitter_handle">
+
+  <!-- Structured Data for Search Engines -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "MD Saiful Hossain",
+    "jobTitle": "Flutter Developer",
+    "description": "Experienced Flutter developer specializing in mobile app development",
+    "url": "https://your-domain.com",
+    "sameAs": [
+      "https://linkedin.com/in/your-profile",
+      "https://github.com/your-username"
+    ],
+    "knowsAbout": ["Flutter", "Dart", "Mobile Development", "Cross-platform Development"],
+    "alumniOf": "Your University/Institution",
+    "workLocation": "Dhaka, Bangladesh"
+  }
+  </script>
+
+  <!-- Performance Optimization -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/Icon-192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/Icon-192.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/Icon-192.png">
 
-  <title>my_porfolio</title>
+  <!-- Theme Color -->
+  <meta name="theme-color" content="#00D4FF">
+  <meta name="msapplication-TileColor" content="#00D4FF">
+
+  <!-- iOS Web App Meta Tags -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="MD Saiful Portfolio">
+
+  <!-- Android Web App Meta Tags -->
+  <meta name="mobile-web-app-capable" content="yes">
+
   <link rel="manifest" href="manifest.json">
+
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
 </head>
 <body>
-  <script src="flutter_bootstrap.js" async></script>
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    const serviceWorkerVersion = "3691286206";
+  </script>
+  <script>
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function(engineInitializer) {
+          engineInitializer.initializeEngine().then(function(appRunner) {
+            appRunner.runApp();
+          });
+        }
+      });
+    });
+  </script>
 </body>
 </html>
