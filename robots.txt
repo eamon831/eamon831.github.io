@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /app/admin-analytics
 
 Sitemap: https://eamon831.github.io/sitemap.xml
